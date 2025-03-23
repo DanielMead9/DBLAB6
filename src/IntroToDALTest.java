@@ -22,7 +22,8 @@ public class IntroToDALTest {
 
     @Test
     public void testTryExecutingAQuery() {
-        assertFalse("Test expects a failure, but no exception/crash", dal.TryExecutingAQuery(null, null, null, null));
+        assertFalse("Test expects a failure, but no exception/crash",
+                dal.TryExecutingAQuery(null, null, null, null, null));
     }
 
     @Test
